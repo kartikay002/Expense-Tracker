@@ -1,8 +1,8 @@
-
-# Environment variables
+# Environment and secrets
 .env
 .env.*
 !.env.example
+secrets.json
 
 # Next.js
 node_modules/
@@ -13,10 +13,12 @@ out/
 bin/
 obj/
 
+# Visual Studio
+.vs/
+
 # IDE
-.vscode/
 .idea/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.db 
